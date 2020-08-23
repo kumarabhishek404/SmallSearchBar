@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="dom.css">
+
+    <title>Project DOM</title>
+</head>
+
+<body>
+    <div id="container">
+        <input type="search" id="input" name="input" placeholder="Search Google or type a URL">
+        <button onclick="setAttr()" id="btn">Search</button>
+        <h2>Here is your search result</h2>
+        <div id="box">
+            <!-- By using 'iframe' tag -->
+            <iframe id="loader"></iframe>
+
+            <!-- By using "object" tag -->
+            <!-- <object id="loader"></object> -->
+
+            <!-- By using 'embed' tag -->
+            <!-- <embed type="video/webm" id="loader"> -->
+        </div>
+    </div>
+</body>
+<script src="dom.js"></script>
+
+</html>
