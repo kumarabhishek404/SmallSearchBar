@@ -13,7 +13,7 @@ function setAttr() {
     if (value.length >= 1) {
         if (value.includes(".com", ".in", ".gmail", ".org")) {
             // For iframe and embrd tag
-            document.getElementById('loader').setAttribute("src", "http://" + value)
+            document.getElementById('loader').setAttribute("src", "https://" + value)
         }
         else {
             document.getElementById('loader').setAttribute("src", "https://www.google.com/search?q=" + value)
