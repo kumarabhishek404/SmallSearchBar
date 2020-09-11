@@ -12,8 +12,7 @@ function setAttr() {
     var value = document.getElementById('input').value;
     if (value.length >= 1) {
         if (value.includes(".com", ".in", ".gmail", ".org")) {
-            
-            // For iframe and embed tag
+            // For iframe and embrd tag
             document.getElementById('loader').setAttribute("src", "https://" + value)
         }
         else {
